@@ -15,7 +15,7 @@
 		BB87AF7A1B671CE100AD5F14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB87AF781B671CE100AD5F14 /* LaunchScreen.xib */; };
 		BB87AF861B671CE100AD5F14 /* kkkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB87AF851B671CE100AD5F14 /* kkkTests.m */; };
 		BB87AF921B671D3300AD5F14 /* View1.m in Sources */ = {isa = PBXBuildFile; fileRef = BB87AF911B671D3300AD5F14 /* View1.m */; };
-		BBBBD0901B67236200191907 /* gongneng2.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBBD08F1B67236200191907 /* gongneng2.m */; };
+		BBBBD0901B67236200191907 /* gongneng4.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBBD08F1B67236200191907 /* gongneng4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +44,8 @@
 		BB87AF851B671CE100AD5F14 /* kkkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kkkTests.m; sourceTree = "<group>"; };
 		BB87AF901B671D3300AD5F14 /* View1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View1.h; sourceTree = "<group>"; };
 		BB87AF911B671D3300AD5F14 /* View1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View1.m; sourceTree = "<group>"; };
-		BBBBD08E1B67236200191907 /* gongneng2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gongneng2.h; sourceTree = "<group>"; };
-		BBBBD08F1B67236200191907 /* gongneng2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gongneng2.m; sourceTree = "<group>"; };
+		BBBBD08E1B67236200191907 /* gongneng4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gongneng4.h; sourceTree = "<group>"; };
+		BBBBD08F1B67236200191907 /* gongneng4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gongneng4.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,8 +131,8 @@
 			children = (
 				BB87AF911B671D3300AD5F14 /* View1.m */,
 				BB87AF901B671D3300AD5F14 /* View1.h */,
-				BBBBD08E1B67236200191907 /* gongneng2.h */,
-				BBBBD08F1B67236200191907 /* gongneng2.m */,
+				BBBBD08E1B67236200191907 /* gongneng4.h */,
+				BBBBD08F1B67236200191907 /* gongneng4.m */,
 			);
 			path = component;
 			sourceTree = "<group>";
@@ -239,7 +239,7 @@
 			files = (
 				BB87AF721B671CE100AD5F14 /* ViewController.m in Sources */,
 				BB87AF6F1B671CE100AD5F14 /* AppDelegate.m in Sources */,
-				BBBBD0901B67236200191907 /* gongneng2.m in Sources */,
+				BBBBD0901B67236200191907 /* gongneng4.m in Sources */,
 				BB87AF921B671D3300AD5F14 /* View1.m in Sources */,
 				BB87AF6C1B671CE100AD5F14 /* main.m in Sources */,
 			);

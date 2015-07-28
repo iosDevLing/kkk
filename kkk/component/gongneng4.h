@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface gongneng2 : UIView
+@interface gongneng4 : UIView
 
 @end

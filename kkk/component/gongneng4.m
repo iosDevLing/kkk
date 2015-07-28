@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 凌壮山. All rights reserved.
 //
 
-#import "gongneng2.h"
+#import "gongneng4.h"
 
-@implementation gongneng2
+@implementation gongneng4
 
 /*
 // Only override drawRect: if you perform custom drawing.
