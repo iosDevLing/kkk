@@ -14,6 +14,7 @@
 		BB87AF771B671CE100AD5F14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB87AF761B671CE100AD5F14 /* Images.xcassets */; };
 		BB87AF7A1B671CE100AD5F14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB87AF781B671CE100AD5F14 /* LaunchScreen.xib */; };
 		BB87AF861B671CE100AD5F14 /* kkkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB87AF851B671CE100AD5F14 /* kkkTests.m */; };
+		BB87AF921B671D3300AD5F14 /* View1.m in Sources */ = {isa = PBXBuildFile; fileRef = BB87AF911B671D3300AD5F14 /* View1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		BB87AF7F1B671CE100AD5F14 /* kkkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kkkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB87AF841B671CE100AD5F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB87AF851B671CE100AD5F14 /* kkkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kkkTests.m; sourceTree = "<group>"; };
+		BB87AF901B671D3300AD5F14 /* View1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View1.h; sourceTree = "<group>"; };
+		BB87AF911B671D3300AD5F14 /* View1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		BB87AF681B671CE100AD5F14 /* kkk */ = {
 			isa = PBXGroup;
 			children = (
+				BB87AF8F1B671D1100AD5F14 /* component */,
 				BB87AF6D1B671CE100AD5F14 /* AppDelegate.h */,
 				BB87AF6E1B671CE100AD5F14 /* AppDelegate.m */,
 				BB87AF701B671CE100AD5F14 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				BB87AF841B671CE100AD5F14 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB87AF8F1B671D1100AD5F14 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				BB87AF911B671D3300AD5F14 /* View1.m */,
+				BB87AF901B671D3300AD5F14 /* View1.h */,
+			);
+			path = component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				BB87AF721B671CE100AD5F14 /* ViewController.m in Sources */,
 				BB87AF6F1B671CE100AD5F14 /* AppDelegate.m in Sources */,
+				BB87AF921B671D3300AD5F14 /* View1.m in Sources */,
 				BB87AF6C1B671CE100AD5F14 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
